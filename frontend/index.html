@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Uptime Monitor</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Space+Grotesk:wght@500;700&family=Inter:wght@400;500;600&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <div class="container">
+    <header>
+      <div class="header-top">
+        <div class="brand">
+          <span class="brand-mark"><span class="brand-pulse"></span></span>
+          <h1>Uptime Monitor</h1>
+        </div>
+        <p class="subtitle">Checking every 30s &middot; dashboard refreshes every 5s</p>
+      </div>
+    </header>
+
+    <div id="summary-bar" class="summary-bar"></div>
+
+    <form id="add-url-form">
+      <input type="text" id="name-input" placeholder="Display name (e.g. My API)" required />
+      <input type="url" id="url-input" placeholder="https://example.com" required />
+      <button type="submit"><span>Add URL</span></button>
+    </form>
+    <p id="form-error" class="error"></p>
+
+    <div id="url-list" class="url-list">
+      <div class="empty-state">
+        <div class="empty-icon">◎</div>
+        <p>Nothing being watched yet</p>
+        <span>Add a URL above to start monitoring it</span>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
