@@ -23,7 +23,7 @@ URLs are checked immediately on registration, and then re-checked every **30 sec
 ## Testing Steps (verifying up/down detection)
 
 1. Run `docker compose up --build` and open http://localhost:3000
-2. **Add a working URL** — name: `Example`, url: `https://economictimes.indiatimes.com/?from=mdr`. It should show a green pulsing dot / "Up" within a couple seconds, with a status code (200) and response time.
+2. **Add a working URL** — name: `Example`, url: `https://example.com`. It should show a green pulsing dot / "Up" within a couple seconds, with a status code (200) and response time.
 3. **Add a broken URL** — name: `Broken`, url: `https://this-domain-does-not-exist-abc123.com` (or any unreachable/invalid host). It should show a red dot / "Down", with no status code (connection failed, not an HTTP error).
 4. You can also test a URL that *responds* but with an error, e.g. `https://httpstat.us/500` — this will show "Down" with status code 500, demonstrating that the check evaluates the actual status code, not just reachability.
 5. Click any card to expand it — you'll see a "why it's up/down" explanation, a sparkline of recent checks, and a short history table.
