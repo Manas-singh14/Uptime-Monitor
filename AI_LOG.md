@@ -4,19 +4,6 @@
 
 - **Primary tool:** Claude (Claude.ai, Sonnet model) — used as a build partner: I made the architecture and product calls, Claude handled implementation, and I tested/debugged everything on my own machine via Docker.
 - **Also evaluated:** Cursor, for a parallel attempt at the same problem. I dropped it partway through in favor of continuing with the approach I'd already validated with Claude — more on that below.
-- **Kicking off the build, from the assignment brief:**
-- "we gotta task to do buddy, prepare yourself. you are a great AI coder and your reasoning and catching a bug power is high"
-
-- **Explaining my approach and plan**
-- "Here is my plan and execution , thats how i would like to built it, compare it with your plan and let me know what could be improved"
-
-- "Why dont we use Playwright if my linkedin is blocking the request?"
-
-- "ok got it"
-
-- "No i dont like streamlit, i choose to go for html/js/css"
-
-- "no we wont deploy it on AWS right now, that i will do if needed." 
 
 ## My Approach
 
@@ -34,6 +21,22 @@ I asked Claude to scaffold this structure and iterated with it from there, revie
 I started by walking the assistant through the assignment brief and requesting a build plan before any code was written, so I could validate the approach against the deadline and scope constraints first. From there I specified the stack decisions above and had it scaffold the initial structure: `database.py`, `pinger.py`, `main.py` on the backend, and `index.html` / `style.css` / `app.js` on the frontend, plus both Dockerfiles and `docker-compose.yml`.
 
 I ran the result locally, tested it against real and broken URLs, and drove each subsequent iteration based on what I found — documented below.
+- **Kicking off the build, from the assignment brief:**
+- "we gotta task to do buddy, prepare yourself. you are a great AI coder and your reasoning and catching a bug ability is high"
+
+- **Explaining my approach and plan**
+- "Here is my plan and execution , thats how i would like to built it, compare it with your plan and let me know what could be improved"
+
+- "Dont just give me the code , i'll let you know what to do when . just let me know your approach"
+
+- "Why dont we use Playwright if my linkedin is blocking the request?"
+
+- "ok got it"
+
+- "No i dont like streamlit, i choose to go for html/js/css"
+
+- "no we wont deploy it on AWS right now, that i will do if needed." 
+
 
 ## Course Corrections
 
