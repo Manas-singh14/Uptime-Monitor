@@ -37,6 +37,8 @@ I ran the result locally, tested it against real and broken URLs, and drove each
 
 - "there is bug you missed out, its not showing the real live time, i will change that first than let you know ahead"
 
+- "i dont like the frontend - keep it a little light background , just do it white i will change colors in css as a i want"
+
 
 - "no we wont deploy it on AWS right now, that i will do if needed." 
 
