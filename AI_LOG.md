@@ -35,6 +35,9 @@ I ran the result locally, tested it against real and broken URLs, and drove each
 
 - "No i dont like streamlit, i choose to go for html/js/css"
 
+- "there is bug you missed out, its not showing the real live time, i will change that first than let you know ahead"
+
+
 - "no we wont deploy it on AWS right now, that i will do if needed." 
 
 
