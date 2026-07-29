@@ -4,6 +4,19 @@
 
 - **Primary tool:** Claude (Claude.ai, Sonnet model) — used as a build partner: I made the architecture and product calls, Claude handled implementation, and I tested/debugged everything on my own machine via Docker.
 - **Also evaluated:** Cursor, for a parallel attempt at the same problem. I dropped it partway through in favor of continuing with the approach I'd already validated with Claude — more on that below.
+- **Kicking off the build, from the assignment brief:**
+- "we gotta task to do buddy, prepare yourself. you are a great AI coder and your reasoning and catching a bug power is high"
+
+- **Explaining my approach and plan**
+- "Here is my plan and execution , thats how i would like to built it, compare it with your plan and let me know what could be improved"
+
+- "Why dont we use Playwright if my linkedin is blocking the request?"
+
+- "ok got it"
+
+- "No i dont like streamlit, i choose to go for html/js/css"
+
+- "no we wont deploy it on AWS right now, that i will do if needed." 
 
 ## My Approach
 
