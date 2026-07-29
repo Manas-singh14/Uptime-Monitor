@@ -37,6 +37,8 @@ I ran the result locally, tested it against real and broken URLs, and drove each
 
 - "there is bug you missed out, its not showing the real live time, i will change that first than let you know ahead"
 
+- "i'll keep the frontend simple an straight forward as of now"
+
 - "i dont like the frontend - keep it a little light background , just do it white i will change colors in css as a i want"
 
 
